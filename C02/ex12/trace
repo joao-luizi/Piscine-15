@@ -1,0 +1,304 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+deepthought-4.42lisboa.com
+Linux 5.15.0-91-generic x86_64
+$> date
+Mon Feb  5 06:27:37 PM WET 2024
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: git@vogsphere.42lisboa.com:vogsphere/intra-uuid-0908cfbe-71aa-4e25-891f-de819c1051f0-5473358-joaomigu
+
+= Git history ==================================================================
+$> git -C /tmp/tmpsvtamgoe/user log --pretty='%H - %an, %ad : %s'
+514164c271617c740c6ba8fcd5ba6054b95c4c36 - Joao Miguel Silvestre De Lima Luizi, Mon Feb 5 13:18:29 2024 +0000 : added files
+
+= Collected files ==========================================
+$> ls -lAR /tmp/tmpsvtamgoe/user
+/tmp/tmpsvtamgoe/user:
+total 56
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex00
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex01
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex02
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex03
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex04
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex05
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex06
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex07
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex08
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex09
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex10
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex11
+drwxr-xr-x 2 root root 4096 Feb  5 18:27 ex12
+-rw-r--r-- 1 root root  975 Feb  5 18:27 __GIT_HISTORY
+
+/tmp/tmpsvtamgoe/user/ex00:
+total 4
+-rw-r--r-- 1 root root 1275 Feb  5 18:27 ft_strcpy.c
+
+/tmp/tmpsvtamgoe/user/ex01:
+total 4
+-rw-r--r-- 1 root root 1311 Feb  5 18:27 ft_strncpy.c
+
+/tmp/tmpsvtamgoe/user/ex02:
+total 4
+-rw-r--r-- 1 root root 1328 Feb  5 18:27 ft_str_is_alpha.c
+
+/tmp/tmpsvtamgoe/user/ex03:
+total 4
+-rw-r--r-- 1 root root 1287 Feb  5 18:27 ft_str_is_numeric.c
+
+/tmp/tmpsvtamgoe/user/ex04:
+total 4
+-rw-r--r-- 1 root root 1299 Feb  5 18:27 ft_str_is_lowercase.c
+
+/tmp/tmpsvtamgoe/user/ex05:
+total 4
+-rw-r--r-- 1 root root 1293 Feb  5 18:27 ft_str_is_uppercase.c
+
+/tmp/tmpsvtamgoe/user/ex06:
+total 4
+-rw-r--r-- 1 root root 1301 Feb  5 18:27 ft_str_is_printable.c
+
+/tmp/tmpsvtamgoe/user/ex07:
+total 4
+-rw-r--r-- 1 root root 1378 Feb  5 18:27 ft_strupcase.c
+
+/tmp/tmpsvtamgoe/user/ex08:
+total 4
+-rw-r--r-- 1 root root 1380 Feb  5 18:27 ft_strlowcase.c
+
+/tmp/tmpsvtamgoe/user/ex09:
+total 4
+-rw-r--r-- 1 root root 1937 Feb  5 18:27 ft_strcapitalize.c
+
+/tmp/tmpsvtamgoe/user/ex10:
+total 4
+-rw-r--r-- 1 root root 1599 Feb  5 18:27 ft_strlcpy.c
+
+/tmp/tmpsvtamgoe/user/ex11:
+total 4
+-rw-r--r-- 1 root root 1629 Feb  5 18:27 ft_putstr_non_printable.c
+
+/tmp/tmpsvtamgoe/user/ex12:
+total 4
+-rw-r--r-- 1 root root 2704 Feb  5 18:27 ft_print_memory.c
+
+= ex00 =========================================================================
+$> cc -Wextra -Wall -Werror ft_strcpy.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./qqjcnxxjkv125o2ldyh6mb3f
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex01 =========================================================================
+$> cc -Wextra -Wall -Werror ft_strncpy.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./58l6hwz190tzn2jfza3946uh
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex02 =========================================================================
+$> cc -Wextra -Wall -Werror ft_str_is_alpha.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./yiib72g37o5pb0roo0x5a15u
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex03 =========================================================================
+$> cc -Wextra -Wall -Werror ft_str_is_numeric.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ckysgsniv92y0dxhcs9yzwc5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex04 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_str_is_lowercase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./eg955yl4fl2rtxsncf3posyv
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex05 =========================================================================
+$> cc -Wextra -Wall -Werror ft_str_is_uppercase.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./o4slyv1ecrsobpcksshg07r0
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex06 =========================================================================
+$> cc -Wextra -Wall -Werror ft_str_is_printable.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./18irim971jcckv2nhd2ffo0p
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex07 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_strupcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ic1axntbffo6rt0s442on43s
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex08 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_strlowcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./j7zdqgtfm43pjy10bty5s35d
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex09 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_strcapitalize.c -o user_exe
+
+= Test 1 ===================================================
+$> ./iaitqr5wqlznr40xbfe88fcf
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex10 =========================================================================
+$> cc -Wextra -Wall -Werror ft_strlcpy.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./51del3w786fu4vrj9zy5a38f
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex11 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_putstr_non_printable.c -o user_exe
+
+= Test 1 ===================================================
+$> ./cizk0gikaeco3tvnx9jn0lyr
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex12 =========================================================================
+$> cc -Wextra -Wall -Werror main.c ft_print_memory.c -o user_exe
+
+= Test 1 ===================================================
+$> ./kvl8gc8arksudn5cqlymocmu
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2024-02-05 18:27:43.936490762 +0000$
++++ test1.output        2024-02-05 18:27:43.908489629 +0000$
+@@ -0,0 +1,84 @@$
++0000000000000000: e4                                      .$
++0000000000000000: ad06                                    ..$
++0000000000000000: ae92 e8                                 ...$
++0000000000000000: f0af d2fd                               ....$
++0000000000000000: 6365 ee1e db                            ce...$
++0000000000000000: b05d c8de c5df                          .]....$
++0000000000000000: c0cf 95ba aa23 21                       .....#!$
++0000000000000000: 5651 b8b2 df23 0c57                     VQ...#.W$
++0000000000000000: e6fb cf52 ac45 3d5d c8                  ...R.E=].$
++0000000000000000: baca d4ba aed8 a8dc f72f                ........./$
++0000000000000000: 7fbf fa32 efee f74f 668e 8f             ...2...Of..$
++0000000000000000: f638 b6ba eb1e 75a7 edc4 c250           .8....u....P$
++0000000000000000: 99f7 19eb 91f2 42b8 cbbc 99a2 93        ......B......$
++0000000000000000: 099a d41a 68b9 9fcc e7cc ca73 1e1c      ....h......s..$
++0000000000000000: 0dd4 538b 490c 79cc 2fc6 25ac 02a7 e1   ..S.I.y./.%....$
++0000000000000000: 92ea db40 e9df 63b1 0fda 7fff 1be4 e0ea ...@..c.........$
++0000000000000000: 3a8f 4891 38b7 fde8 4e5e f1b7 a03c 6f1e :.H.8...N^...<o.$
++0000000000000010: 2b                                      +$
++0000000000000000: 7bef aa45 708d e4d1 021f a24f 7b41 2e4c {..Ep......O{A.L$
++0000000000000010: acc8                                    ..$
++0000000000000000: a384 1e22 4f29 cc39 b041 9c3b 933e 25f8 ..."O).9.A.;.>%.$
++0000000000000010: efca f1                                 ...$
++0000000000000000: 0a9c f067 ab51 eeb9 9ed6 024f d507 fa69 ...g.Q.....O...i$
++0000000000000010: 7824 2d2a                               x$-*$
++0000000000000000: b66a eb31 7e8a d4ae d81c fa8c 6e28 5334 .j.1~.......n(S4$
++0000000000000010: fca0 e961 89                            ...a.$
++0000000000000000: e269 9af7 d49b cccb 8cbe fdd6 feb9 58be .i............X.$
++0000000000000010: c58b aed2 af09                          ......$
++0000000000000000: 93ac bf45 abbf e80f df92 ebeb b4f0 b7da ...E............$
++0000000000000010: af59 e7eb 2492 c2                       .Y..$..$
++0000000000000000: a58f 7fee 3e4b 0de1 aacf decc 8ecf 1575 ....>K.........u$
++0000000000000010: 7d19 deda 09ce 53a2                     }.....S.$
++0000000000000000: a4d4 53da ac0f ebca 3dbc a5da ac57 ee2b ..S.....=....W.+$
++0000000000000010: ca1c d15c 02aa 3a99 cd                  ...\..:..$
++0000000000000000: adca 2c5d adab 2c60 0719 5ab4 05cc cef1 ..,]..,`..Z.....$
++0000000000000010: 0da1 8ab3 e695 58af adcc                ......X...$
++0000000000000000: 9ba1 f2db d010 5abb a5df 94b3 25a0 fba9 ......Z.....%...$
++0000000000000010: 0aa6 8e3d d884 c8b4 7add 49             ...=....z.I$
++0000000000000000: d2b2 2091 5878 4cf8 abec 3894 f68e 8cac .. .XxL...8.....$
++0000000000000010: aa94 0d3c acd5 bd9d cec5 50cf           ...<......P.$
++0000000000000000: 9b86 3c3f 6aa5 01f0 d2e9 c33d d5a2 f6ea ..<?j......=....$
++0000000000000010: ec91 8d17 9f5f bd1f 695e 8fc8 ec        ....._..i^...$
++0000000000000000: ab2f fdac fe6f a5dc ef44 0aca ebab 0f61 ./...o...D.....a$
++0000000000000010: bef1 acea c86c aba5 ba3f 9afa f53f      .....l...?...?$
++0000000000000000: c247 cec6 02b3 4bc0 b7a3 df62 ce0e dfcb .G....K....b....$
++0000000000000010: d9ff 3d4f a4fe 820d c262 da5f 6d86 ef   ..=O.....b._m..$
++0000000000000000: 3c53 2a4d 66e5 1666 52aa bc28 dd28 e77f <S*Mf..fR..(.(..$
++0000000000000010: 5a29 cc0d a8bb fbfe 208e 64be 6f4b ff68 Z)...... .d.oK.h$
++0000000000000000: 9de9 acdd 920c 4eb6 fb2c 7c6f 5ccb a28a ......N..,|o\...$
++0000000000000010: a35f 3bde fac8 af8b 38c1 1cfb a3a3 451b ._;.....8.....E.$
++0000000000000020: 97                                      .$
++0000000000000000: de2a cb5e 5a4d d5cd bbaf 946d e0fe 2e75 .*.^ZM.....m...u$
++0000000000000010: b85a 8a5b 4daa 6ffa 119d a9ef 1a0f 27b8 .Z.[M.o.......'.$
++0000000000000020: 2dea                                    -.$
++0000000000000000: cdd6 4d9d 718c 1fd5 ceb2 e7f3 e3ad a9bc ..M.q...........$
++0000000000000010: 1fc1 c638 b386 19eb ccff 4f2f 178c bf5f ...8......O/..._$
++0000000000000020: 1c9a 27                                 ..'$
++0000000000000000: 0ab7 3fef e7db aa5b c01a a92d e6fa 90be ..?....[...-....$
++0000000000000010: d728 e3ea c858 aaea 6eaa cd97 dc32 409b .(...X..n....2@.$
++0000000000000020: 2064 ccdd                                d..$
++0000000000000000: 3aee b8cb ebff ecb9 b25b 0fd2 78e6 03f8 :........[..x...$
++0000000000000010: 5dac cff7 dec3 4399 f9ea fbfe fed0 457d ].....C.......E}$
++0000000000000020: 7cad 185d aa                            |..].$
++0000000000000000: 9f1c e9d6 cd2f 0dde f98b 5d57 d0a9 e5be ...../....]W....$
++0000000000000010: 23ed 2ecd bc77 47a5 c25a 2ac2 5c89 8efe #....wG..Z*.\...$
++0000000000000020: f3be a4b3 248f                          ....$.$
++0000000000000000: ecb2 964b c66b ebbd 1d16 f7c3 046d 8fda ...K.k.......m..$
++0000000000000010: bfb2 ddf9 d8df aebe 73c2 b61d f200 9679 ........s......y$
++0000000000000020: 0aa6 faae 68a8 62                       ....h.b$
++0000000000000000: 2ab0 fa41 b0b4 32ce 6dbf f060 d2b9 f9a9 *..A..2.m..`....$
++0000000000000010: fd9a e2a2 f4df bdd3 8b4c ebe2 88d9 ee90 .........L......$
++0000000000000020: 9f0f 8d79 c003 db7d                     ...y...}$
++0000000000000000: e55f abbf b623 99e9 0f7c fabb 6e0f db7f ._...#...|..n...$
++0000000000000010: 0efd 0d24 87be fb8f aceb d4cb e8dc 135b ...$...........[$
++0000000000000020: 7ca2 6589 f691 08fd d9                  |.e......$
++0000000000000000: b61f 8c87 df4e b3ac a8ce 1ae3 5f98 0e0a .....N......_...$
++0000000000000010: fce2 147c c08a 3adc c86a a42c e1eb 7cd5 ...|..:..j.,..|.$
++0000000000000020: 08fc a7aa cede 7c8e ebcf                ......|...$
++0000000000000000: 22d1 6da7 dc0a e01a 3cbc bc0f 3e32 fd7f ".m.....<...>2..$
++0000000000000010: 48af abce dfc4 8aea aa9f 092e ffdc d4a8 H...............$
++0000000000000020: 2e71 6c9f d9b9 7f6d cefd b2             .ql....m...$
++0000000000000000: ba86 0deb 9704 ba45 78af 0cb2 9e4c 5b58 .......Ex....L[X$
++0000000000000010: 7b45 c1de 062c eee1 4bf8 d1a5 fce8 a6cc {E...,..K.......$
++0000000000000020: f229 9c38 cd78 6cdc aff9 23af           .).8.xl...#.$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 85 ==============================================================
