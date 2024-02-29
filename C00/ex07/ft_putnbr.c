@@ -28,11 +28,9 @@ void	number(int nb)
 
 void	ft_putnbr(int nb)
 {
-	if (nb == -2147483648)
-	{
-		write(1, "-2147483648", 11);
-		return ;
-	}
+	unsigned int safe_nb;
+
+	safe_nb = 0;
 	if (nb == 0)
 	{
 		ft_putchar('0');
@@ -42,14 +40,12 @@ void	ft_putnbr(int nb)
 		if (nb < 0)
 		{
 			ft_putchar('-');
-			nb = -nb;
+			safe_nb = -nb;
 		}
-		number(nb);
+		else
+		{
+			safe_nb = nb;
+		}
+		number(safe_nb);
 	}
 }
-/*
-int	main(void)
-{
-	ft_putnbr(-2147483);
-	return (0);
-}*/
